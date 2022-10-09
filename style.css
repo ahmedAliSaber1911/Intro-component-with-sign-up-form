@@ -75,6 +75,8 @@ input{
     font-weight: 500;
     border-radius: 5px;
     border: 1px solid black;
+    width: 100%;
+
 }
 .submit{
     background-color: var(--Green);  
@@ -100,4 +102,7 @@ input{
     background-repeat: no-repeat;
     background-position:center;
     background-position-x:360px;
+}
+.active {
+    display: block;
 }
